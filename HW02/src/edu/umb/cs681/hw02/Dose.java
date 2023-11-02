@@ -4,10 +4,10 @@ import java.time.LocalDate;
 
 public class Dose {
 
-    String vacProductName;
-    String lotNumber;
-    LocalDate date;
-    String vacSite;
+    private String vacProductName;
+    private String lotNumber;
+    private LocalDate date;
+    private String vacSite;
 
     public Dose(String vacProductName,String lotNumber,LocalDate date,String vacSite){
         this.vacProductName=vacProductName;
