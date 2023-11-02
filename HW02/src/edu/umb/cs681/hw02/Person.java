@@ -19,11 +19,11 @@ public class Person {
         this.doses = new LinkedList<> ();
     }
 
-    String firstName;
-    String lastName;
-    LocalDate dob;
+    private String firstName;
+    private String lastName;
+    private LocalDate dob;
 
-    LinkedList<Dose> doses;
+    private LinkedList<Dose> doses;
 
     int getAge () {
         return Period.between (dob, LocalDate.now ()).getYears ();
