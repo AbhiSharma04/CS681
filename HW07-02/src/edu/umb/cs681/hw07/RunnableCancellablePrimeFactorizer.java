@@ -71,12 +71,7 @@ public class RunnableCancellablePrimeFactorizer extends RunnablePrimeFactorizer{
             e.printStackTrace();
         }
         System.out.println("Final result: " + runnable.getPrimeFactors() + "\n");
-//        try {
-//            thread.join();
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//        System.out.println("Final result: " + runnable.getPrimeFactors() + "\n");
+
 
         // Factorization of 84 with two threads
         System.out.println("Factorization of 84");
